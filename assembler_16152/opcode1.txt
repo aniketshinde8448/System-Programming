@@ -1,0 +1,7 @@
+14	op#327		reg#13	sym#1	0	
+15	op#327		reg#14	sym#2	6	
+16	op#321		reg#13	reg#14	12	
+17	op#3281		reg#13	-	16	
+18	op#28		sym#3	-	18	
+19	op#30		-	-	18	
+20	op#322		reg#18	reg#ax	18	

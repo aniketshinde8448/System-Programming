@@ -1,0 +1,7 @@
+a	1
+b	2
+msg	3
+m	4
+main	5
+printf	6
+abc	7

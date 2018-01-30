@@ -1,0 +1,21 @@
+al 1
+ah 2
+bl 3
+bh 4
+cl 5
+ch 6
+dl 7
+dh 8
+ax 9
+bx 10
+cx 11
+dx 12
+eax 13
+ebx 14
+ecx 15
+edx 16
+ebp 17
+esp 18
+edi 19
+esi 20
+

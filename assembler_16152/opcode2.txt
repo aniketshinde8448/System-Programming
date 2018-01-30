@@ -1,0 +1,17 @@
+	1 	 				section .data
+	2 00000000 00000004			a dd 4
+	3 00000004 00000003			b dd 3
+	4 00000008 00001000			msg db "%d",10,0
+	6 	 				section .bss
+	7 00000000 <res 00000004>		c resd 1
+	9 	 				section .text
+	10 	 				global main
+	11 	 				extern printf
+	13 	 			main:
+	14 00000000 G6[00000000]		mov eax,a
+	15 00000005 G6[00000004]		mov ebx,b
+	16 0000000A F9A2			add eax,ebx
+	17 0000000C Q3				push eax
+	18 0000000D Q4[00000008]		push msg
+	19 00000012 R6(00000000)		call printf
+	20 00000017 G2[0000000U]		add esp,8

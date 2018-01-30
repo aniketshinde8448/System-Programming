@@ -1,0 +1,7 @@
+	Symbol Table
+Name		No.		Type		Size		U/D
+a		1		INT		1		D		0
+b		2		INT		1		D		4
+msg		3		CHAR		9		D		8
+c		4		INT		1		U		0
+main		5		FUNCT		1		-

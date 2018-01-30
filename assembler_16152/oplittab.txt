@@ -1,0 +1,3 @@
+	Literal Table
+Lit Value	Lit No.
+8		1
